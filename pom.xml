@@ -8,7 +8,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.4</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath /> 
 	</parent>
 
 	<groupId>br.com.neurotech</groupId>
@@ -24,9 +24,8 @@
 
 	<contributors>
 		<contributor>
-			<!-- Preencha com seus próprios dados quando fizer o fork -->
-			<name>Nome do candidato</name>
-			<email>email@candidato.com</email>
+			<name>Joao Emerson Niculau da Silva</name>
+			<email>joao.emerson@neurotech.com.br</email>
 		</contributor>
 	</contributors>
 
@@ -42,6 +41,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.3.0</version> 
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
